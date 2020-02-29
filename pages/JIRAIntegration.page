@@ -1,0 +1,32 @@
+<!--***    
+    * @File Name          : JIRAIntegration.page
+    * @Author             : Sumit Choubey
+	* @Apex class         : JiraIntegrationHandler.cls
+    * @Last Modified By   : 
+    * @Last Modified On   : 
+    * @Modification Log   : 
+    * @Description        : 
+    * Ver       Date            Author      		    Modification
+    * 1.0       Feb-03-2020                            Initial Version
+    ***--> 
+<apex:page standardController="Case" 
+            extensions="JiraIntegrationHandler" 
+            lightningStylesheets="true" 
+            standardStylesheets="false" 
+            sidebar="false">
+
+<!-- START FORM -->	   
+<apex:form>
+ 
+   <!-- @YOU CAN MODIFY THIS PAGE DEPENDS ON YOUR REQUIREMENT -->
+ 
+    <!-- @CALL TO GETJIRARECORD -->
+    <apex:commandLink action="{!getJIRARecord}" value="">
+        <button class="slds-button slds-button--neutral">Continue</button>
+            <apex:param name="caseId" value="{!Case.Id}"/>
+            <apex:param name="jiraRefId" value="{!Case.Jira_ref_Id__c}"/>
+        </apex:commandLink>
+    </apex:form>
+    <!-- CLOSE FORM -->
+	
+</apex:page>
