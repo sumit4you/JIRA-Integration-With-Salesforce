@@ -13,6 +13,7 @@ Step 1: Create Remote site setting.
 ```
 ```
 Step 2: Create Detail Page Button on Case Object. 
+
         Label            Name            Content Source	        Content                                     
         Sync JIRA        Sync_JIRA       Visualforce Page       JIRAIntegration         
 ```  
