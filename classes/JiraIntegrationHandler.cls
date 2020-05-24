@@ -84,7 +84,9 @@ public with sharing class JiraIntegrationHandler {
     /** @JIRA END POINT URL @YOU MAY USE NAMED CREDENTIALS HERE **/
     string jira_host = 'https://YourJIRAInstanceURL.atlassian.net/rest/api/2/search?jql=';
     
-    /** @METADATA RECORD FOR USERNAME AND PASSWORD **/
+    /** @METADATA RECORD FOR USERNAME AND PASSWORD  
+        @NOTE:- FOR THE PASSWORD, PLEASE USE API TOKEN
+    **/
     String JIRA_CN = 'MDT NAME';
     JIRA_Credentials__mdt JIRA_mdt = [SELECT Id, 
                                             MasterLabel, 
