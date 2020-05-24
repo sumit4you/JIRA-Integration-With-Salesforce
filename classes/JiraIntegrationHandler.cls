@@ -7,8 +7,8 @@
  * @Last Modified On   : 
  * @Modification Log   : 
  * @Description        : 
- * Ver       Date            Author      		    Modification
- * 1.0       Feb-03-2020                            Initial Version
+ * Ver       Date                Author     	    Modification
+ * 1.0       Feb-03-2020                          Initial Version
 **/
 
 public with sharing class JiraIntegrationHandler {
