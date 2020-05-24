@@ -1,4 +1,4 @@
-# JIRA-Salesforce-Integration
+# JIRA-Integration-With-Salesforce
 
 This piece of code will help you to get JIRA record from Salesforce.
 
