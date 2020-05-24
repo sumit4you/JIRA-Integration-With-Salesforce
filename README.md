@@ -32,8 +32,8 @@ Step 4: Create JIRA Issue Object and Fields.
         Field                         API Name                                  Type 
         Case                          Case__c                                   Master-Detail(Case)
         JIRA Issue Name               JIRA_Issue_Name__c                        Text(255) (External ID)    
-        JIRA Issue Summary            JIRA_Issue_Name__c                        Long Text Area(131072)
-        JIRA Status                   JIRA_Issue_Name__c                        Text(255)
+        JIRA Issue Summary            JIRA_Issue_Summary__c                        Long Text Area(131072)
+        JIRA Status                   JIRA_Status__c                        Text(255)
  ```        
 For more information or question, you can reach out me, through my email address.
 
