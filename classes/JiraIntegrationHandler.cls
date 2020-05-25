@@ -110,7 +110,7 @@ public with sharing class JiraIntegrationHandler {
       
     String auth_header = 'Basic ' + EncodingUtil.base64Encode(Blob.valueOf(username + ':' + password));
     string url = jira_host  + 
-                            '\"USM%20CR%20or%20FT%20Tkt\"~' + jiraRefId +
+                            '\"summary\"~' + jiraRefId +
                             '&fields=' + fieldsQuery + 
                             '&startAt='+ startAt +
                             '&maxResults='+maxResults;
